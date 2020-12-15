@@ -1,0 +1,217 @@
+{
+   "name": "StatusCodeError",
+   "statusCode": 429,
+   "message": "429 - {\"message\":\"rate limited\",\"status\":\"fail\"}",
+   "error": {
+      "message": "rate limited",
+      "status": "fail"
+   },
+   "options": {
+      "baseUrl": "https://www.instagram.com",
+      "uri": "/graphql/query/",
+      "headers": {
+         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.8 (KHTML, like Gecko) Version/10.1 Safari/603.1.30",
+         "Accept-Language": "en-US",
+         "X-Instagram-AJAX": 1,
+         "X-Requested-With": "XMLHttpRequest",
+         "Referer": "https://www.instagram.com",
+         "X-CSRFToken": "PonPh9qYC5eGAeant491COdxFeKksxua"
+      },
+      "jar": {
+         "_jar": {
+            "version": "tough-cookie@2.5.0",
+            "storeType": "MemoryCookieStore",
+            "rejectPublicSuffixes": true,
+            "cookies": [
+               {
+                  "key": "ig_cb",
+                  "value": "1",
+                  "domain": "www.instagram.com",
+                  "path": "/",
+                  "hostOnly": true,
+                  "pathIsDefault": true,
+                  "creation": "2020-12-05T17:55:32.833Z",
+                  "lastAccessed": "2020-12-05T17:58:44.142Z"
+               },
+               {
+                  "key": "ig_did",
+                  "value": "61FBDAF8-20D7-4343-B7E2-FB92FE8FE5B1",
+                  "expires": "2022-12-05T17:55:33.000Z",
+                  "maxAge": 63072000,
+                  "domain": "instagram.com",
+                  "path": "/",
+                  "secure": true,
+                  "httpOnly": true,
+                  "hostOnly": false,
+                  "creation": "2020-12-05T17:55:33.449Z",
+                  "lastAccessed": "2020-12-05T17:58:44.142Z"
+               },
+               {
+                  "key": "csrftoken",
+                  "value": "PonPh9qYC5eGAeant491COdxFeKksxua",
+                  "expires": "2021-12-04T17:58:46.000Z",
+                  "maxAge": 31449600,
+                  "domain": "instagram.com",
+                  "path": "/",
+                  "secure": true,
+                  "hostOnly": false,
+                  "creation": "2020-12-05T17:55:33.450Z",
+                  "lastAccessed": "2020-12-05T17:58:45.701Z"
+               },
+               {
+                  "key": "mid",
+                  "value": "X8vJlQAEAAECOfm_07mwyffR-DEN",
+                  "expires": "2022-12-05T17:55:33.000Z",
+                  "maxAge": 63072000,
+                  "domain": "instagram.com",
+                  "path": "/",
+                  "secure": true,
+                  "hostOnly": false,
+                  "creation": "2020-12-05T17:55:33.451Z",
+                  "lastAccessed": "2020-12-05T17:58:44.142Z"
+               },
+               {
+                  "key": "rur",
+                  "value": "FTW",
+                  "domain": "instagram.com",
+                  "path": "/",
+                  "secure": true,
+                  "httpOnly": true,
+                  "hostOnly": false,
+                  "creation": "2020-12-05T17:55:36.813Z",
+                  "lastAccessed": "2020-12-05T17:58:45.702Z"
+               },
+               {
+                  "key": "ds_user_id",
+                  "value": "494754483",
+                  "expires": "2021-03-05T17:58:43.000Z",
+                  "maxAge": 7776000,
+                  "domain": "instagram.com",
+                  "path": "/",
+                  "secure": true,
+                  "hostOnly": false,
+                  "creation": "2020-12-05T17:55:36.814Z",
+                  "lastAccessed": "2020-12-05T17:58:44.142Z"
+               },
+               {
+                  "key": "sessionid",
+                  "value": "494754483%3ApE6HtiKYMNDAiL%3A19",
+                  "expires": "2021-12-05T17:55:37.000Z",
+                  "maxAge": 31536000,
+                  "domain": "instagram.com",
+                  "path": "/",
+                  "secure": true,
+                  "httpOnly": true,
+                  "hostOnly": false,
+                  "creation": "2020-12-05T17:55:36.814Z",
+                  "lastAccessed": "2020-12-05T17:58:44.142Z"
+               },
+               {
+                  "key": "shbid",
+                  "value": "19323",
+                  "expires": "2020-12-12T17:55:37.000Z",
+                  "maxAge": 604800,
+                  "domain": "instagram.com",
+                  "path": "/",
+                  "secure": true,
+                  "httpOnly": true,
+                  "hostOnly": false,
+                  "creation": "2020-12-05T17:55:38.727Z",
+                  "lastAccessed": "2020-12-05T17:58:44.142Z"
+               },
+               {
+                  "key": "shbts",
+                  "value": "1607190937.7932851",
+                  "expires": "2020-12-12T17:55:37.000Z",
+                  "maxAge": 604800,
+                  "domain": "instagram.com",
+                  "path": "/",
+                  "secure": true,
+                  "httpOnly": true,
+                  "hostOnly": false,
+                  "creation": "2020-12-05T17:55:38.728Z",
+                  "lastAccessed": "2020-12-05T17:58:44.142Z"
+               },
+               {
+                  "key": "urlgen",
+                  "value": "\"{\\\"5.133.29.43\\\": 57704}:1klbpW:tV8uefqgW3x9lZ9K0C7CRwXj1dM\"",
+                  "domain": "instagram.com",
+                  "path": "/",
+                  "secure": true,
+                  "httpOnly": true,
+                  "hostOnly": false,
+                  "creation": "2020-12-05T17:55:44.928Z",
+                  "lastAccessed": "2020-12-05T17:58:45.703Z"
+               }
+            ]
+         }
+      },
+      "json": true,
+      "qs": {
+         "query_hash": "37479f2b8209594dde7facb0d904896a",
+         "variables": "{\"id\":\"494754483\",\"first\":50,\"after\":\"QVFEU3l3TU1KOXhXejhXWG8wRFpTcWVDTFdWU0FVZDJPMTNPSnNTYldWZ1IxMzFQaVJlbE5KSVhZMmlQOUYwQ3c1akFPNWZpMEI3d21DVVppLTQ3RTdTeg==\"}"
+      },
+      "simple": true,
+      "resolveWithFullResponse": false,
+      "transform2xxOnly": false
+   },
+   "response": {
+      "statusCode": 429,
+      "body": {
+         "message": "rate limited",
+         "status": "fail"
+      },
+      "headers": {
+         "content-type": "application/json; charset=utf-8",
+         "vary": "Accept-Language, Cookie",
+         "content-language": "en",
+         "date": "Sat, 05 Dec 2020 17:58:46 GMT",
+         "strict-transport-security": "max-age=31536000",
+         "cache-control": "private, no-cache, no-store, must-revalidate",
+         "pragma": "no-cache",
+         "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+         "x-frame-options": "SAMEORIGIN",
+         "content-security-policy": "report-uri https://www.instagram.com/security/csp_report/; default-src 'self' https://www.instagram.com; img-src data: blob: https://*.fbcdn.net https://*.instagram.com https://*.cdninstagram.com https://*.facebook.com https://*.giphy.com; font-src data: https://*.fbcdn.net https://*.instagram.com https://*.cdninstagram.com; media-src 'self' blob: https://www.instagram.com https://*.cdninstagram.com https://*.fbcdn.net; manifest-src 'self' https://www.instagram.com; script-src 'self' https://instagram.com https://www.instagram.com https://*.www.instagram.com https://*.cdninstagram.com wss://www.instagram.com https://*.facebook.com https://*.fbcdn.net https://*.facebook.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://*.www.instagram.com https://www.instagram.com 'unsafe-inline'; connect-src 'self' https://instagram.com https://www.instagram.com https://*.www.instagram.com https://graph.instagram.com https://*.graph.instagram.com https://*.cdninstagram.com https://api.instagram.com https://i.instagram.com wss://www.instagram.com wss://edge-chat.instagram.com https://*.facebook.com https://*.fbcdn.net https://*.facebook.net chrome-extension://boadgeojelhgndaghljhdicfkmllpafd blob:; worker-src 'self' blob: https://www.instagram.com; frame-src 'self' https://instagram.com https://www.instagram.com https://staticxx.facebook.com https://www.facebook.com https://web.facebook.com https://connect.facebook.net https://m.facebook.com; object-src 'none'; upgrade-insecure-requests",
+         "x-content-type-options": "nosniff",
+         "x-xss-protection": "0",
+         "x-aed": "33",
+         "access-control-expose-headers": "X-IG-Set-WWW-Claim",
+         "set-cookie": [
+            "csrftoken=PonPh9qYC5eGAeant491COdxFeKksxua; Domain=.instagram.com; expires=Sat, 04-Dec-2021 17:58:46 GMT; Max-Age=31449600; Path=/; Secure",
+            "rur=FTW; Domain=.instagram.com; HttpOnly; Path=/; Secure",
+            "urlgen=\"{\\\"5.133.29.43\\\": 57704}:1klbpW:tV8uefqgW3x9lZ9K0C7CRwXj1dM\"; Domain=.instagram.com; HttpOnly; Path=/; Secure"
+         ],
+         "x-fb-trip-id": "1679558926",
+         "alt-svc": "h3-29=\":443\"; ma=3600,h3-27=\":443\"; ma=3600",
+         "connection": "close",
+         "content-length": "45"
+      },
+      "request": {
+         "uri": {
+            "protocol": "https:",
+            "slashes": true,
+            "auth": null,
+            "host": "www.instagram.com",
+            "port": null,
+            "hostname": "www.instagram.com",
+            "hash": null,
+            "search": "?query_hash=37479f2b8209594dde7facb0d904896a&variables=%7B%22id%22%3A%22494754483%22%2C%22first%22%3A50%2C%22after%22%3A%22QVFEU3l3TU1KOXhXejhXWG8wRFpTcWVDTFdWU0FVZDJPMTNPSnNTYldWZ1IxMzFQaVJlbE5KSVhZMmlQOUYwQ3c1akFPNWZpMEI3d21DVVppLTQ3RTdTeg%3D%3D%22%7D",
+            "query": "query_hash=37479f2b8209594dde7facb0d904896a&variables=%7B%22id%22%3A%22494754483%22%2C%22first%22%3A50%2C%22after%22%3A%22QVFEU3l3TU1KOXhXejhXWG8wRFpTcWVDTFdWU0FVZDJPMTNPSnNTYldWZ1IxMzFQaVJlbE5KSVhZMmlQOUYwQ3c1akFPNWZpMEI3d21DVVppLTQ3RTdTeg%3D%3D%22%7D",
+            "pathname": "/graphql/query/",
+            "path": "/graphql/query/?query_hash=37479f2b8209594dde7facb0d904896a&variables=%7B%22id%22%3A%22494754483%22%2C%22first%22%3A50%2C%22after%22%3A%22QVFEU3l3TU1KOXhXejhXWG8wRFpTcWVDTFdWU0FVZDJPMTNPSnNTYldWZ1IxMzFQaVJlbE5KSVhZMmlQOUYwQ3c1akFPNWZpMEI3d21DVVppLTQ3RTdTeg%3D%3D%22%7D",
+            "href": "https://www.instagram.com/graphql/query/?query_hash=37479f2b8209594dde7facb0d904896a&variables=%7B%22id%22%3A%22494754483%22%2C%22first%22%3A50%2C%22after%22%3A%22QVFEU3l3TU1KOXhXejhXWG8wRFpTcWVDTFdWU0FVZDJPMTNPSnNTYldWZ1IxMzFQaVJlbE5KSVhZMmlQOUYwQ3c1akFPNWZpMEI3d21DVVppLTQ3RTdTeg%3D%3D%22%7D"
+         },
+         "method": "GET",
+         "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.8 (KHTML, like Gecko) Version/10.1 Safari/603.1.30",
+            "Accept-Language": "en-US",
+            "X-Instagram-AJAX": 1,
+            "X-Requested-With": "XMLHttpRequest",
+            "Referer": "https://www.instagram.com",
+            "X-CSRFToken": "PonPh9qYC5eGAeant491COdxFeKksxua",
+            "cookie": "ig_cb=1; ig_did=61FBDAF8-20D7-4343-B7E2-FB92FE8FE5B1; csrftoken=PonPh9qYC5eGAeant491COdxFeKksxua; mid=X8vJlQAEAAECOfm_07mwyffR-DEN; rur=FTW; ds_user_id=494754483; sessionid=494754483%3ApE6HtiKYMNDAiL%3A19; shbid=19323; shbts=1607190937.7932851; urlgen=\"{\\\"5.133.29.43\\\": 57704}:1klbpT:FOBhoad0ni0IwNpBTqSAoDBlqSw\"",
+            "accept": "application/json"
+         }
+      }
+   }
+}
